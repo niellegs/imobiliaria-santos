@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --azul-claro: #afddfb;
+    --azul-escuro: #1d80c1;
+    --detaque-azul: #1c81c0;
+    --destaque-amarelo: #fff81b;
+}
+
+
+
+/* HEADER */
+
+header {
+    background-color: var(--azul-claro);
+}
+
+header img {
+    display: flex;
+    margin: 0 auto;
+    height: 20vh;
+}
+
+header .menu ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header .menu a {
+    text-decoration: none;
+}
+
+header li {
+    margin: 1rem 1rem;
+}
+
+/* BANNER */
+
+#banner {
+    display: flex;
+    justify-content: center;
+}
+
+#banner img {
+    margin-top: 3rem;
+    width: 90vw;
+    height: auto;
+}
+
+/* SOBRE NOS */
+
+#sobre {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#sobre img {
+    height: 50vh;
+    width: auto;
+}
+
+#sobre h3 {
+    color: var(--azul-escuro);
+    margin-bottom: 3rem;
+}
+
+#sobre p {
+    text-align: left;
+    margin: 2rem 15rem;
+}
+
+.blue{
+    color: var(--detaque-azul);
+}
+
+.yellow{
+    color: var(--destaque-amarelo);
+}
+
+/* SERVIÇOS */
+
+#servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul-escuro);
+    color: white;
+    text-align: left;
+    padding: 2rem 15rem;
+}
+
+#servicos ul {
+    padding-top: 2rem;
+}
+
+/* CORRETORES */
+
+#corretores {
+    text-align: center;
+    padding: 2rem 15rem;
+}
+
+#corretores h2 {
+    color: var(--azul-escuro);
+}
+
+#corretores img {
+    width: auto;
+    height: 50vh;
+}
+
+/* CONTATO */
+
+#contato {
+    background-color: var(--azul-escuro);
+    color: white;
+    text-align: center;
+    padding: 2rem 15rem;
+}
+
+#contato p {
+    background-color: black;
+}
+
+#contato ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul-escuro);
+    color: white;
+    text-align: left;
+}
+
+#contato ul li {
+    background-color: white;
+    color: var(--azul-escuro);
+    margin: .5rem;
+    padding: .2rem;
+}
+
+#contato iframe {
+    width: 40vw;
+    height: 40vh;
+}
