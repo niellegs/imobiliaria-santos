@@ -10,3 +10,5 @@ A proposta desse projeto é criar uma página web estilizada e que exibe listas,
 
 
 ## OUTROS PROJETOS DEVMEDIA
+
+* [Pet Boutique](https://github.com/niellegs/pet-boutique)
